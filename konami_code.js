@@ -7,6 +7,7 @@ function init() {
       index++;
       if (index === code.length) {
         alert('Hurray!');
+        console.log('hello');
         index = 0;
       }
     } else {

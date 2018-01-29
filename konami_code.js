@@ -5,11 +5,8 @@ function init() {
     const key = parseInt(e.which || e.detail);
     if (code[index] === key) {
       index++;
-       console.log('hello');
       if (index === code.length) {
-       
         alert('Hurray!');
-        
         index = 0;
       }
     } else {
